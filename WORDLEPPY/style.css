@@ -1,0 +1,60 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-image:url("https://img.freepik.com/fotos-premium/juego-palabras-letras-colores_406939-3857.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    
+    }
+  h1{
+      text-align : center;
+      margin-top: 50px;
+  }
+  #guess-input{
+      display: block;
+      margin: 0 auto 20px;
+      padding: 10px;
+      font-size: 18px;
+      width: 250px;
+      border: 1px solid hsl(133, 90%, 49%)
+  }
+  #guess-button{
+      display: block;
+      margin: 0 auto;
+       padding: 10px 20px;
+      font-size: 18px;
+      background-color: #0CBABA;
+      color: #b81294;
+      border: none;
+      border-radius: 3px; 
+  }
+  #Error{
+      color: #ff3a04fa;
+      text-align: center;
+      padding: 10px 20px;
+      /* margin: 0 auto; */
+  }
+   button:active{
+      transform: scale(0.95);
+  }
+  .letter{
+      border: 1px solid rgb(15, 28, 218);
+      padding: 3px  ;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  
+  }
+  .row{
+       margin-bottom: 10px; 
+       text-align: center;
+  
+  }
+  .input-area{
+      margin: 30px;
+  }
+  #grid{
+      width: 200px;
+      margin: 0 auto;
+  }
